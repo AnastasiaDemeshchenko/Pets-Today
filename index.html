@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pets Today</title>
+</head>
+
+<body>
+    <header>
+        <ul class="top_header_menu">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Выставки</a></li>
+            <li><a href="#">Обратная связь</a></li>
+        </ul>
+        <div class="middle_header">
+            <div class="wrapper">
+                <div class="container">
+                    <a class="link_home" href="#">
+                        <img src="./img/logoheader.png" alt="Pets Today">
+                        <p class="logotext">Pets Today</p>
+                    </a>
+                    <div class="search">
+                        <h1>1-й <span>информационный зоопортал</span> Украины</h1>
+                        <form class="searchline" action="#">
+                            <input class="input_search" type="text" placeholder="Поиск по сайту" name="search">
+                            <input class="input_search_icon" type="submit" value="">
+                        </form>
+                    </div>
+                    <div class="imgdogheader">
+                        <img src="./img/imgheader.png" alt="dog">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_header">
+            <div class="wrapper">
+                <nav class="bottom_header_menu">
+                    <ul class="menu_list">
+                        <li><a href="">Объявления</a></li>
+                        <li><a href="">Питомники</a></li>
+                        <li><a href="">Ветклиники</a></li>
+                        <li><a href="">Уход и содержание</a></li>
+                        <li><a href="">Корма</a></li>
+                        <li><a href="">Форум</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <section class="wrapper">
+            <main>
+                <div class="mainimg"><img src="./img/catanddog.jpg" alt="cat and dog">
+                    <h2 class="mainimgtxt">Новые питомники<span>щенков и котят</span></h2>
+                    <ul class="mainimg_list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <h2>Самое свежее из блогов</h2>
+                <article>
+                    <a href="#"><img src="./img/mainimg1.png" alt="cats"></a>
+                    <div class="textnews">
+                        <h3><a href="#">Где лучше покупать животных, на птичьем рынке или в зоомагазине?</a></h3>
+                        <div class="information">
+                            <span class="calendar_icon">24 апреля, 2015</span>
+                            <span class="views_icon">4</span>
+                            <span class="comments_icon"><a href="#">7</a></span>
+                        </div>
+                        <p>Практически у каждого, кто задумывается о покупке животного, возникает вопрос, где лучше
+                            приобрести себе друга, на птичьем рынке или в зоомагазине?</p>
+                        <a class="linktoread" href="#">Читать подробнее ...</a>
+                    </div>
+                </article>
+                <article>
+                    <a href="#"><img src="./img/mainimg2.png" alt="cats"></a>
+                    <div class="textnews">
+                        <h3><a href="#">Как определить настроение собаки по вилянию хвоста</a></h3>
+                        <div class="information">
+                            <span class="calendar_icon">19 апреля, 2015</span>
+                            <span class="views_icon">11</span>
+                            <span class="comments_icon"><a href="#">15</a></span>
+                        </div>
+                        <p>О том, что довольная собака виляет хвостом, а напуганная его поджимает известно многим, но
+                            это далеко не все, что животное может сказать хвост.</p>
+                        <a class="linktoread" href="#">Читать подробнее ...</a>
+                    </div>
+                </article>
+                <article>
+                    <a href="#"><img src="./img/mainimg3.png" alt="cats"></a>
+                    <div class="textnews">
+                        <h3><a href="#">Ученые палеонтологи обнаружили останки доисторических собак</a></h3>
+                        <div class="information">
+                            <span class="calendar_icon">08 апреля, 2015</span>
+                            <span class="views_icon">39</span>
+                            <span class="comments_icon"><a href="#">27</a></span>
+                        </div>
+                        <p>Международная группа палеонтологов совершенно случайно наткнулась на останки животного,
+                            которое не было ранее известно науке.</p>
+                        <a class="linktoread" href="#">Читать подробнее ...</a>
+                    </div>
+                </article>
+            </main>
+            <aside class="sidebar">
+                <h2 class="pretittle_sidebar">Опроc</h2>
+                <form class="formsurvey" action="#">
+                    <div class="survey">
+                        <h3 class="tittle_sidebar">Какой питомец сейчас живет у Вас дома?</h3>
+                        <div><input class="custom_checkbox" type="checkbox" id="cat">
+                            <Label for="cat" class="checkbox_label">Кошка</Label>
+                        </div>
+                        <div><input class="custom_checkbox" type="checkbox" id="dog">
+                            <Label for="dog" class="checkbox_label">Собака</Label>
+                        </div>
+                        <div><input class="custom_checkbox" type="checkbox" id="bird">
+                            <Label for="bird" class="checkbox_label">Птица</Label>
+                        </div>
+                        <div><input class="custom_checkbox" type="checkbox" id="fish">
+                            <Label for="fish" class="checkbox_label">Рыбка</Label>
+                        </div>
+                        <div><input class="custom_checkbox" type="checkbox" id="other">
+                            <Label for="other" class="checkbox_label">Другое</Label>
+                        </div>
+                    </div>
+                    <ul class="survey_menu">
+                        <li><button type="submit" class="link_btn">Голосовать</button></li>
+                        <li><a class="link_btn" href="#">Результаты</a></li>
+                        <li><a class="link_btn" href="#">Все опросы</a></li>
+                    </ul>
+                </form>
+                <div>
+                    <h2 class="pretittle_sidebar2">Самое обсуждаемое</h2>
+                    <img src="./img/asidedog.png" alt="dog">
+                    <div class="information_aside">
+                        <span class="views_icon_aside">103</span>
+                        <span class="comments_icon_aside"><a href="#">47</a></span>
+                    </div>
+                    <h3><a href="#">Как выбрать ошейник для Вашего любимца?</a></h3>
+                </div>
+            </aside>
+    </section>
+    <section class="block_advice">
+        <h2><span>Полезные советы</span></h2>
+        <div class="img_block_advice wrapper">
+            <div class="descr">
+                <img src="./img/img1.png" alt="cat">
+                <div class="descr_backgr">
+                    <h3><a href="">Как правильно фотографировать животных</a></h3>
+                </div>
+            </div>
+
+            <div class="descr">
+                <img src="./img/img2.png" alt="cat">
+                <div class="descr_backgr">
+                    <h3><a href="">Чумка у кошек: симптомы, лечение и профилактика</a></h3>
+                </div>
+            </div>
+            <div class="descr">
+                <img src="./img/img3.png" alt="aquarium">
+                <div class="descr_backgr">
+                    <h3><a href="">Как аквариум в доме влияет на здоровье человека</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2>Получайте интересные статьи первыми!</h2>
+    <div class="mail_block wrapper">
+        <form class="mail_info" action="#">
+            <input class="mailname" type="text" placeholder="Ваше имя">
+            <input type="email" placeholder="E-mail">
+            <button class="mail_btn" type="submit">Подписаться</button>
+        </form>
+    </div>
+    <footer>
+        <ul class="bottom_header_menu menu_list wrapper">
+            <li><a href="">Объявления</a></li>
+            <li><a href="">Питомники</a></li>
+            <li><a href="">Ветклиники</a></li>
+            <li><a href="">Уход и содержание</a></li>
+            <li><a href="">Корма</a></li>
+            <li><a href="">Форум</a></li>
+        </ul>
+        <div class="footer_logo wrapper">
+            <a href="#"><img src="./img/logofooter.png" alt="Pets Today">
+                <p class="logotextfooter">Pets Today</p>
+            </a>
+            <img class="footeranimal" src="./img/footerimg.png" alt="dog and cat">
+            <div class="footer_contacts">
+                <div>
+                    <h3>Pets Today © 2015</h3>
+                    <ul class="contacts_list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <p><a href="#">Создание сайта</a><span> - WebСтрой</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
